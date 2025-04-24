@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Name - Online CV</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="profile">
+				<img src="images/profile.jpg" alt="Profile Picture" class="profile-image">
+				<div class="profile-content">
+					<h1 class="name">Your Name</h1>
+					<h2 class="title">Your Professional Title</h2>
+					<div class="contact-info">
+						<div><i class="fas fa-envelope"></i> email@example.com</div>
+						<div><i class="fas fa-phone"></i> +1 234 567 890</div>
+						<div><i class="fas fa-map-marker-alt"></i> City, Country</div>
+					</div>
+					<div class="social-links">
+						<a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+						<a href="https://linkedin.com/in/yourusername" target="_blank"><i
+								class="fab fa-linkedin"></i></a>
+						<a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container main-content">
+		<section id="about" class="section">
+			<h2 class="section-title">About Me</h2>
+			<div class="section-content">
+				<p>Write a brief professional summary here. Highlight your expertise, experience, and career objectives.
+					This section should give visitors a quick overview of who you are professionally.</p>
+			</div>
+		</section>
+
+		<section id="education" class="section">
+			<h2 class="section-title">Education</h2>
+			<div class="section-content education-list">
+				<!-- Education items will be populated from education.yml -->
+				<div class="education-item">
+					<h3 class="degree">Master of Science in Computer Science</h3>
+					<div class="institution">University Name</div>
+					<div class="location">City, Country</div>
+					<div class="dates">2018 - 2022</div>
+					<ul class="highlights">
+						<li>Relevant coursework: Data Structures, Algorithms, Machine Learning</li>
+						<li>GPA: 3.8/4.0</li>
+					</ul>
+				</div>
+				<!-- Add more education items as needed -->
+			</div>
+		</section>
+
+		<section id="experience" class="section">
+			<h2 class="section-title">Experience</h2>
+			<div class="section-content experience-list">
+				<!-- Experience items will be populated from experience.yml -->
+				<div class="experience-item">
+					<h3 class="position">Software Developer</h3>
+					<div class="company">Company Name</div>
+					<div class="location">City, Country</div>
+					<div class="dates">January 2020 - Present</div>
+					<ul class="responsibilities">
+						<li>Developed and maintained web applications using React and Node.js</li>
+						<li>Collaborated with cross-functional teams to define project requirements</li>
+						<li>Improved application performance by 30%</li>
+					</ul>
+				</div>
+				<!-- Add more experience items as needed -->
+			</div>
+		</section>
+
+		<section id="skills" class="section">
+			<h2 class="section-title">Skills</h2>
+			<div class="section-content">
+				<div class="skills-container">
+					<div class="technical-skills">
+						<h3>Technical Skills</h3>
+						<!-- Technical skills will be populated from skills.yml -->
+						<div class="skill-category">
+							<h4>Programming Languages</h4>
+							<div class="skill-details">JavaScript, Python, Java, C++</div>
+						</div>
+						<div class="skill-category">
+							<h4>Web Technologies</h4>
+							<div class="skill-details">HTML5, CSS3, React, Node.js, Express</div>
+						</div>
+						<div class="skill-category">
+							<h4>Databases</h4>
+							<div class="skill-details">MySQL, MongoDB, PostgreSQL</div>
+						</div>
+					</div>
+					<div class="soft-skills">
+						<h3>Soft Skills</h3>
+						<!-- Soft skills will be populated from skills.yml -->
+						<ul>
+							<li>Communication</li>
+							<li>Team Leadership</li>
+							<li>Problem Solving</li>
+							<li>Project Management</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="section">
+			<h2 class="section-title">Projects</h2>
+			<div class="section-content">
+				<div class="completed-projects">
+					<h3>Completed Projects</h3>
+					<div class="projects-list">
+						<!-- Completed projects will be populated from projects.yml -->
+						<div class="project-item">
+							<h4 class="project-name">Project Name</h4>
+							<div class="project-description">Brief description of the project and your role.</div>
+							<div class="project-technologies">HTML, CSS, JavaScript, React</div>
+							<a href="#" class="project-link" target="_blank">View Project</a>
+						</div>
+					</div>
+				</div>
+				<div class="ongoing-projects">
+					<h3>Ongoing Projects</h3>
+					<div class="projects-list">
+						<!-- Ongoing projects will be populated from projects.yml -->
+						<div class="project-item">
+							<h4 class="project-name">Current Project</h4>
+							<div class="project-description">What you're currently working on.</div>
+							<div class="project-technologies">React, Node.js, MongoDB</div>
+							<div class="project-progress">
+								<div class="progress-bar">
+									<div class="progress" style="width: 65%;"></div>
+								</div>
+								<div class="progress-text">65% Complete</div>
+							</div>
+							<div class="expected-completion">Expected completion: December 2025</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="activities" class="section">
+			<h2 class="section-title">Activities & Achievements</h2>
+			<div class="section-content activities-list">
+				<!-- Activities will be populated from activities.yml -->
+				<div class="activity-item">
+					<h3 class="activity-type">Volunteering</h3>
+					<div class="activity-organization">Organization Name</div>
+					<div class="activity-role">Your Role</div>
+					<div class="activity-dates">2021 - Present</div>
+					<div class="activity-description">Brief description of your contributions.</div>
+				</div>
+				<div class="activity-item">
+					<h3 class="activity-type">Certification</h3>
+					<div class="activity-name">Certification Name</div>
+					<div class="activity-issuer">Issuing Organization</div>
+					<div class="activity-date">June 2022</div>
+					<a href="#" class="activity-link" target="_blank">View Certificate</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<p>&copy; 2025 Your Name. All rights reserved.</p>
+				<p>Last updated: <span id="last-updated"></span></p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
